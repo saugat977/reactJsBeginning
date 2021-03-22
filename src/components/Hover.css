@@ -1,0 +1,12 @@
+.col{
+  padding: 20px;
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+
+.col:hover{
+   background-color:#F0FFF0;
+    color:#6495ED;
+    transform: scale(1.1);
+}

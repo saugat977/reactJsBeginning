@@ -1,17 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-import First from './First';
-import Second from './Second';
-import Navbar from './components/Navbar';
+import React from 'react';
+import Routes from './Routes';
+
 
 function App() {
   return (
     <div className="App">
-     {/* <h1>Hello World</h1> */}
-     {/* jsx syntax */}
-     {/* <First/>  */}
-     {/* <Second/> */}
-     <Navbar/>
+      {/* <h1>Hello World</h1> */}
+      {/* jsx syntax */}
+      <>
+        <Routes />
+      </>
+
+
+
+
 
     </div>
   );
