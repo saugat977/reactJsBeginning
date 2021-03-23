@@ -6,7 +6,7 @@
 
 
 .col:hover{
-   background-color:#F0FFF0;
-    color:#6495ED;
+   background-color:#808080;
+    color :#808080;
     transform: scale(1.1);
 }

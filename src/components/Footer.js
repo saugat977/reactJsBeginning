@@ -3,7 +3,7 @@ import React from 'react'
 const Footer=()=> {
     return (
         <>
-            <footer className="footer mt-2 py-3 bg-dark">
+            <footer className="footer mt-2 py-3 bg-dark fixed-bottom">
                 <div className="container">
                     <span className="text-muted">
                         &copy; Copyright,All Rights Reserved 2021 @Dursikshya
