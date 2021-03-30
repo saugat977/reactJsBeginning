@@ -38,6 +38,9 @@ function Navbar() {
                 <li className="nav-item">
                   <Link className="nav-link text-white" to="/offer" style={{ color: 'white' }}>Offers</Link>
                 </li>
+                <li className="nav-item">
+                  <Link className="nav-link text-white" to="/deals" style={{ color: 'white' }}>Deals</Link>
+                </li>
                 <li className="nav-item dropdown">
                   <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: 'white' }}>
                     Dropdown
