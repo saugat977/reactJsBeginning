@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <>
       <div className="container-fixed ">
-        <div className="row align-items-center" style={{ backgroundColor: '#232f3e' }}>
+        <div className="row align-items-center bg-dark pt-3 pb-3" style={{ backgroundColor: '#232f3e' }}>
           <div className="col-md-8">
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
@@ -16,7 +16,7 @@ function Navbar() {
               <ul className="d-flex">
                 <li className="list-unstyled"><Link className="text-decoration-none p-3 text-white" to="/signup"><i class="bi bi-person-plus-fill" style={{ color: 'orange', fontSize: '20px' }}></i>&nbsp;Signup</Link></li>
                 <li className="list-unstyled"><Link className="text-decoration-none p-3 text-white" to="/signin"><i class="bi bi-box-arrow-in-right" style={{ color: 'orange', fontSize: '20px' }}></i>&nbsp;Signin</Link></li>
-                <li className="list-unstyled"><Link className="text-decoration-none p-2 text-white"><i class="bi bi-cart" style={{ color: 'orange', fontSize: '20px' }}></i><sup style={{ fontSize: '10px', backgroundColor: 'red', borderRadius: '50%', padding: '2px', color: 'white' }}>5</sup>Add to Cart</Link></li>
+                <li className="list-unstyled"><Link className="text-decoration-none p-2 text-white"><i class="bi bi-cart" style={{ color: 'orange', fontSize: '20px' }}></i><sup style={{ fontSize: '10px', backgroundColor: 'red', borderRadius: '50%', padding: '2px', color: 'white' }}>5</sup></Link></li>
               </ul>
             </div>
 
@@ -40,6 +40,9 @@ function Navbar() {
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link text-white" to="/deals" style={{ color: 'white' }}>Deals</Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link text-white" to="/contact" style={{ color: 'white' }}>Contact</Link>
                 </li>
                 <li className="nav-item dropdown">
                   <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: 'white' }}>

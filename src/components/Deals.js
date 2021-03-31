@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import {Link} from 'react-router-dom'
+import Day from './Day'
+import Week from './Week'
 const Deals = () => {
     return (
         <>
@@ -54,9 +56,24 @@ const Deals = () => {
                             <Link to="#" ClassName="text-decoration-none">Weekend deals</Link><br/>
                         </div>
                     </div>
-                    <div className="col-md-8">
-
+                    <div className="col-md-10 ">
+                        <div className="shadow p-2 ">
+                            <div className="text-light pt-1 pb-1"style={{backgroundColor:'#232f3e'}}>
+                            <center ><h3>Deals of the day</h3></center>
+                            </div>
+                            <Day/>
+                        </div>
+                        <div className="col-md-12 mt-3">
+                        <div className="shadow p-2 ">
+                            <div className="text-light pt-1 pb-1"style={{backgroundColor:'#232f3e'}}>
+                            <center ><h3>Deals of the Week</h3></center>
+                            </div>
+                            <Week/>
+                        </div>
                     </div>
+                    </div>
+                    
+                    
                 </div>
             </div>
             <Footer/>
